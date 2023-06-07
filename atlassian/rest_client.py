@@ -254,7 +254,7 @@ class AtlassianRestAPI(object):
         if self.advanced_mode or advanced_mode:
             return response
 
-        self.raise_for_status(response)
+        # self.raise_for_status(response)
         return response
 
     def get(
